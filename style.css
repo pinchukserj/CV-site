@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 45px;
-    background: url('C:\\Users\\Serj\\Documents\\CV\\images\\title_background.jpg') no-repeat center center / cover;
+    background: url('https://raw.githubusercontent.com/pinchukserj/CV-site/main/images/title_background.jpg') no-repeat center center / cover;
     color: white;
     margin-right: 10px;
 }
@@ -38,7 +38,7 @@ body {
     display:flex;
     width: 20%;
     height: 100%;
-    background: url('C:\\Users\\Serj\\Documents\\CV\\images\\Photo1.jpg') no-repeat center center / cover;
+    background: url('https://raw.githubusercontent.com/pinchukserj/CV-site/main/images/Photo1.jpg') no-repeat center center / cover;
 
 }
 
