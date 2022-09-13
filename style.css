@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url('C:\\Users\\Serj\\Documents\\CV\\images\\bg-light-4857.png');
+    background-repeat: repeat;
+    padding: 100px 0;
+}
+
+.container{
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid white;
+    margin:0 auto;
+    background-color: white;
+    
+}
+
+.header{
+    display: flex;
+    height: 200px;
+}
+
+.title_block{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    background: url('C:\\Users\\Serj\\Documents\\CV\\images\\title_background.jpg') no-repeat center center / cover;
+    color: white;
+    margin-right: 10px;
+}
+
+.userpic{
+    display:flex;
+    width: 20%;
+    height: 100%;
+    background: url('C:\\Users\\Serj\\Documents\\CV\\images\\Photo1.jpg') no-repeat center center / cover;
+
+}
+
+.nav ul{
+    display:flex;
+    background: rgb(91, 167, 89);
+    width: 632px;
+    margin: 10px 0;
+}
+
+.nav li{
+    
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-right: 1px solid #e4e4e4;
+    transition:all 0.3s ease;
+}
+
+.nav li a:hover{
+    background: rgb(53, 155, 50);
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 20px;
+}
+
+.skills li{
+    padding: 10px 0;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.skills li a{
+text-decoration: none;
+color: black;
+font-weight:200
+
+}
+
+
+.skills li:hover{
+    transform: translateX(10px);
+}
+
+.content p{
+    line-height: 20px;
+}
+
+.sidebar li a{
+    text-decoration: none;
+}
+
+.education ul li{
+    padding: 10px;
+}
+
+.expirience ul li{
+    padding: 10px;
+}
+
+.contacts li {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border-right: 1px solid #e4e4e4;
+    transition:all 0.3s ease;
+    
+}
+
+.contacts li a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: #000000;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+
+.contacts li a:hover{
+    transform: translateX(10px);
+}
